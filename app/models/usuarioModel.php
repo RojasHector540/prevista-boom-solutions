@@ -413,7 +413,7 @@ class usuarioModel extends mainModel {
         return [
             "ok"    => true,
             "tipo"  => "success",
-            "texto" => "Usuario eliminado lógicamente del sistema."
+            "texto" => "Usuario eliminado del sistema."
         ];
     }
 }

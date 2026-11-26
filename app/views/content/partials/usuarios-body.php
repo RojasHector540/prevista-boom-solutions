@@ -11,7 +11,7 @@ $roles    = $insUsr->listarTodosRoles();
     <div class="px-6 py-4 border-b border-gray-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div>
             <h1 class="text-lg font-bold text-gray-800">Usuarios Registrados</h1>
-            <p class="text-xs text-gray-500">Administra estatus, datos de cuenta, roles y eliminación lógica.</p>
+            <p class="text-xs text-gray-500">Administra estatus, datos de cuenta, roles y eliminación.</p>
         </div>
         <span class="text-xs font-semibold bg-gray-100 text-gray-700 px-3 py-1 rounded-full">
             Total: <span id="totalUsuarios"><?php echo count($usuarios); ?></span>
@@ -215,7 +215,7 @@ function cambiarEstatus(id) {
 }
 
 function eliminarUsuarioLogico(id) {
-    if (!confirm('¿Seguro que deseas eliminar este usuario? Se marcará como eliminado de forma lógica.')) {
+    if (!confirm('¿Seguro que deseas eliminar este usuario?')) {
         return;
     }
 
