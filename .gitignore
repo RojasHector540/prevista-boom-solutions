@@ -1,0 +1,13 @@
+# Archivos de configuración local (si prefieres subir un ejemplo, crea config/app.example.php)
+config/server.php
+
+# Archivos del sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Dependencias (si llegas a usar Composer o Node)
+/vendor/
+/node_modules/
